@@ -53,4 +53,4 @@ window.onload = function () {
     document.getElementById('preloader').style.display = 'none'; // Hide the preloader
     document.getElementById('main-content').style.display = 'block'; // Show the main content
   }, 600); // 0.1 second delay
-};
+}
