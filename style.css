@@ -474,4 +474,21 @@ background-size: cover;
   background-color: black;
   text-align: center;
 }
+/*========== preloader ========================================*/
+.preloader img{
+  margin-left: 600px;
+  margin-top: 200px;
+}
 
+@media(max-width:768px){
+  .preloader img{
+    margin-left: 70px;
+    margin-top: 200px;
+  }
+}
+@media(max-width:1024px){
+  .preloader img{
+    margin-left: 350px;
+    margin-top: 500px;
+  }
+}

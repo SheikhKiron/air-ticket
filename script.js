@@ -46,3 +46,11 @@ document.addEventListener('DOMContentLoaded', () => {
   io.observe(town);
 });
 
+
+window.onload = function () {
+  // Delay of 0.1 second (100 milliseconds) to hide the preloader
+  setTimeout(function () {
+    document.getElementById('preloader').style.display = 'none'; // Hide the preloader
+    document.getElementById('main-content').style.display = 'block'; // Show the main content
+  }, 600); // 0.1 second delay
+};
