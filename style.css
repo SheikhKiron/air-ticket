@@ -334,10 +334,10 @@ background-size: cover;
     margin-left: 250px;
   }
   .town .bb{
-    margin-left: -99px;
+    margin-left: -99px !important;
   }
   .town .aa{
-    margin-left: -101px;
+    margin-left: -101px !important;
   }
 }
 @media(max-width:768px){
