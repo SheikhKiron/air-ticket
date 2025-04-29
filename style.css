@@ -321,8 +321,27 @@ background-size: cover;
   margin-left: -100px;
 }
 
-@media(max-width:768px){
+
+@media(max-width:375px){
   .town{
+    height: auto;
+  }
+  .car{
+    margin-left: -130px;
+    margin-top: 15px !important;
+  }
+  .car h1{
+    margin-left: 250px;
+  }
+  .town .bb{
+    margin-left: -99px;
+  }
+  .town .aa{
+    margin-left: -101px;
+  }
+}
+@media(max-width:768px){
+.town{
     height: auto;
   }
   .car{
@@ -336,10 +355,8 @@ background-size: cover;
     margin-left: -74px;
   }
   .town .aa{
-    margin-left: -76px;
+    margin-left: -75px;
   }
-
-
 }
 @media(max-width:1024px){
   .town{
